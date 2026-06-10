@@ -1,0 +1,5 @@
+n = int(input("Enter the number of elements in the array:"))
+arr = map(int, input("Enter the elements in the array:").split())
+unique_arr=set(arr)
+sorted_arr=sorted(unique_arr)
+print(sorted_arr[-2])
