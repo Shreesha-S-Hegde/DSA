@@ -1,7 +1,6 @@
 digits = [1,2,3]
 n=len(digits)
 l=[]
-i=0
 new = ' '
 for item in digits:
     new+=str(item)
