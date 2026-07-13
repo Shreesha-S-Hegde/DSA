@@ -8,5 +8,5 @@ if target in nums:
 else:
     nums.append(target)
     nums.sort()
-    answer=nums.index(target)
-print(answer)
+    result=nums.index(target)
+print(result)
